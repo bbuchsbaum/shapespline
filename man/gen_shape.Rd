@@ -4,7 +4,7 @@
 \alias{gen_shape}
 \title{generate a new shape}
 \usage{
-gen_shape(nsides = 16, area = 0.3, rescale = TRUE)
+gen_shape(nsides = 16, area = 0.3, rescale = TRUE, shape = 0.8)
 }
 \arguments{
 \item{nsides}{the number of sides}

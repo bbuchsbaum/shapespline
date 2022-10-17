@@ -46,6 +46,11 @@ rescale_poly <- function(p, area=.3) {
   p
 }
 
+#' @export
+shape_sim <- function(x,y) {
+  proxy::simil(t(as.matrix(x$radii)), t(as.matrix(y$radii)))
+}
+
 
 #' @export
 shape_from_radii <- function(radii, area=.3, rescale=TRUE, shape=.8) {
